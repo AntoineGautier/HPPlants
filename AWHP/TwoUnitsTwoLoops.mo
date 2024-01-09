@@ -374,7 +374,7 @@ __Dymola_Commands(file="modelica://AWHP/TwoUnitsTwoLoops.mos"
 <p>
 This model reproduces the standard configuration from TRANE (2022).
 The simulation illustrates the faulty hydronics that yield uncontrolled mixing
-between the CHW and HHW loops.
+between the CHW and HW loops.
 </p>
 <h4>Details</h4>
 <p>
@@ -382,17 +382,17 @@ The plant is composed of two identical reversible air-to-water heat pumps
 totaling <i>1.9</i>&nbsp;MW of heating capacity and <i>2.4</i>&nbsp;MW
 of cooling capacity at design conditions.
 Two actuated isolation valves are used at the outlet of
-each unit to switch over between the CHW loop and the HHW loop.
-The model only represents the primary CHW and HHW loops, up to the decoupler.
+each unit to switch over between the CHW loop and the HW loop.
+The model only represents the primary CHW and HW loops, up to the decoupler.
 Only one operating mode is simulated, with
 <code>AWHP_1</code> operating in heating mode and
 <code>AWHP_2</code> operating in cooling mode.
 Due to the absence of isolation valves at the heat pump inlet,
-mixing between the CHW and HHW loops occurs at the junction of
+mixing between the CHW and HW loops occurs at the junction of
 the return pipes
 (components <code>jun1</code> and <code>jun2</code> in the model).
 In this configuration, the unit in cooling mode practically cools the
-primary HHW loop and prevents the unit in heating mode from making setpoint.
+primary HW loop and prevents the unit in heating mode from meeting the setpoint.
 Without any load on the plant, <code>AWHP_1</code> operates at
 <i>100&nbsp;%</i> PLR while <code>AWHP_2</code> operates at
 <i>57&nbsp;%</i> PLR, with a total input power of around <i>440</i>&nbsp;kW.
