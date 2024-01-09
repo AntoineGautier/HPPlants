@@ -1,6 +1,6 @@
 within ;
 package AWHP
-annotation (uses(Modelica(version="4.0.0"), Buildings(version="11.0.0")),
+annotation (uses(Modelica(version="4.0.0"), Buildings(version="10.0.0")),
 Documentation(info="<html>
 <p>
 This package contains models used to perform the hydraulic analysis
