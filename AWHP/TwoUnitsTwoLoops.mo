@@ -395,7 +395,7 @@ In this configuration, the unit in cooling mode practically cools the
 primary HHW loop and prevents the unit in heating mode from making setpoint.
 Without any load on the plant, <code>AWHP_1</code> operates at
 <i>100&nbsp;%</i> PLR while <code>AWHP_2</code> operates at
-<i>57&nbsp;%</i>PLR, with a total input power of around <i>440</i>&nbsp;kW.
+<i>57&nbsp;%</i> PLR, with a total input power of around <i>440</i>&nbsp;kW.
 </p>
 <h4>References</h4>
 <p>
